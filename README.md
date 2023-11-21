@@ -63,7 +63,7 @@ docker run -d --gpus all -p 80:8501 registry.cn-beijing.aliyuncs.com/chatchat/ch
 
 详细教程参考[langchain-chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
 
-### 2， 修改/增加的内容
+### 2. 修改/增加的内容
 
 - 1、把chatglm-cpp 封装成openai api的调用方式
 - 2、利用chatchat项目本身支持的openai api能力，调用第1步的API接口，获取LLM能力
