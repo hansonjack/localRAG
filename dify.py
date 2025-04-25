@@ -8,7 +8,7 @@ import requests, json, warnings
 class Pipeline:
     def __init__(self):
         self.name = "Dify Agent Pipeline"
-        self.api_url = "http://192.168.31.42/v1/workflows/run"     # Set correct hostname
+        self.api_url = "http://100.104.147.2/v1/workflows/run"     # Set correct hostname
         self.api_key = "app-Sf12fYUigmvE7jci3ZsRLhL4"                              # Insert your actual API key here.v 
         self.api_request_stream = True                             # Dify support stream
         self.verify_ssl = False
